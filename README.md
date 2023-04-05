@@ -14,7 +14,7 @@ import os
 os.environ['PATH'] += path_to_driver
 driver = webdriver.Chrome()
 ```
-1. Pass drvier path by `Options` class when creating webdriver object
+2. Pass drvier path by `Options` class when creating webdriver object
 ```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
